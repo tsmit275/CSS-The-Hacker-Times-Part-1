@@ -1,1 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+body {
+background-color: hsl(0, 0%, 81%); 
+font-family: source sans pro;
+}
+.newspaper-container{
+    width: 700px;
+    border-radius: 25px; 
+    padding: 25px 50px 75px 100px;
+    box-shadow: 5px 10px #ddd;
+    margin-inline: 300px;
+    background-color: #eee;
+
+}
+header, h1{
+    font-family: abril fatface; 
+    text-align: center; 
+}
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.date {
+ font-family: Andale Mono, monospace; 
+ text-align: left;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+
+}
+li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 5px;
+    color: #777;
+    text-decoration: none; 
+    border-top: 20px;
+    border-bottom: 1px solid #555;
+    border-top: 1px solid #555; 
+  }
+  h5 {
+    color: #DD0808; 
+    font-family: OCR A Std, monospace;
+  }
+  .more-articles {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: nowrap;
+  }
+  h4 {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
